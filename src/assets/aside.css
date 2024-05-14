@@ -1,0 +1,70 @@
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap'); */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.navt {
+  position: fixed;
+  width: 60px;
+  margin-top: 200px;
+  transition: all 0.3s linear;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, .4);
+}
+.navt li {
+  height: 60px;
+  position: relative;
+}
+.navt li a {
+  color: white;
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 60px;
+  padding-left: 20%;
+  border-bottom: 1px solid rgba(0, 0, 0, .4);
+  transition: all .3s linear;
+}
+.navt li:nth-child(1) a {
+  background: #4267B2;
+}
+.navt li:nth-child(2) a {
+  background: #E1306C;
+}
+.navt li:nth-child(3) a {
+  background: #2867B2;
+}
+.navt li:nth-child(4) a {
+  background: #333;
+}
+.navt li:nth-child(5) a {
+  background: #ff0000;
+}
+.navt li a i {
+  position: absolute;
+  top: 17px;
+  left: 15px;
+  font-size: 27px;
+}
+.navt li span {
+  display: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.navt li:hover a {
+  z-index: 1;
+  width: 200px;
+}
+.navt li:hover span {
+  padding-left: 30%;
+  display: block;
+}

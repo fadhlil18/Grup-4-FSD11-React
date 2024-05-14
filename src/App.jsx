@@ -1,18 +1,25 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-
+import './App.scss'
+import Aside from './components/Aside'
+import ParticlesComponent from './components/config/ParticlesConfig';
+import Main from './components/Main';
+import Footer from './components/Footer';
+import About from './components/AboutMe'
+import Header from './components/Header'
+import Project from './components/Project'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <h1 className="font-bold underline">
-      Hello world!
-    </h1>
-    </>
-  )
+    <div className="App">
+      <ParticlesComponent id="particles"/>
+      <Header/>
+      <Aside/>
+      <Main/>
+      <About/>
+      <Project/>
+      <Footer className='particlesheader'/>
+    </div>
+  );
 }
 
-export default App
+export default App;
