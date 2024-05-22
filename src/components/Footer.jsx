@@ -20,12 +20,11 @@ const Footer = () => {
         <div className="md:w-1/3 md:pl-8">
           <h5 className="text-lg font-semibold mb-4">Social Media</h5>
           <ul className="flex flex-wrap">
-            <li className="mr-4 mb-2"><a href="https://www.linkedin.com/in/fadhlilazfi/" className="hover:font-semibold"><i className="fab fa-linkedin-in"></i><span  className='ml-1'>Linkedin</span></a></li>
-            <li className="mr-4 mb-2"><a href="https://www.instagram.com/azhim18/" className="hover:font-semibold"><i className="fab fa-instagram"></i><span  className='ml-1'>Instagram</span></a></li>
-            <li className="mr-4 mb-2"><a href="https://github.com/fadhlil18" className="hover:font-semibold"><i className="fab fa-github"></i><span className='ml-1'>Github</span></a></li>
-            <li className="mr-4 mb-2"><a href="https://www.facebook.com/fadhlilazhimfirmansyah" className="hover:font-semibold"><i className="fab fa-facebook-f"></i><span className='ml-1'>Facebook</span></a></li>
-           
-            <li className="mr-4 mb-2"><a href="https://www.youtube.com/@fadhlilaf" className="hover:font-semibold"><i className="fab fa-youtube"></i><span>Youtube</span></a></li>
+            <li className="mr-4 mb-2"><a href="https://www.linkedin.com/in/fadhlilazfi/" target="_blank" className="hover:font-semibold"><i className="fab fa-linkedin-in"></i><span  className='ml-1'>Linkedin</span></a></li>
+            <li className="mr-4 mb-2"><a href="https://github.com/fadhlil18" target="_blank" className="hover:font-semibold"><i className="fab fa-github"></i><span className='ml-1'>Github</span></a></li>
+            <li className="mr-4 mb-2"><a href="https://www.instagram.com/azhim18/" target="_blank" className="hover:font-semibold"><i className="fab fa-instagram"></i><span  className='ml-1'>Instagram</span></a></li>
+            <li className="mr-4 mb-2"><a href="https://www.facebook.com/fadhlilazhimfirmansyah" target="_blank" className="hover:font-semibold"><i className="fab fa-facebook-f"></i><span className='ml-1'>Facebook</span></a></li>
+            <li className="mr-4 mb-2"><a href="https://www.youtube.com/@fadhlilaf" target="_blank" className="hover:font-semibold"><i className="fab fa-youtube"></i><span>Youtube</span></a></li>
           </ul>
         </div>
       </div>
