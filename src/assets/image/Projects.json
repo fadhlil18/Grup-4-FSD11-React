@@ -3,10 +3,10 @@
         "id":1,
         "name":"React",
         "picture": [
-            "src/assets/image/React/1.png",
-            "src/assets/image/React/2.png",
-            "src/assets/image/React/3.png",
-            "src/assets/image/React/4.png"
+            "./React/1.png",
+            "./React/2.png",
+            "./React/2.png",
+            "./React/2.png"
         ],
         "description":"Final Project from Harisenin Bootcamp develped with Git,Figma, HTML, CSS, JavaScript, ReactJS"
     },
@@ -14,8 +14,8 @@
         "id":2,
         "name":"ReactNative",
         "picture": [
-            "src/assets/image/ReactNative/1.png",
-            "src/assets/image/ReactNative/2.png"
+            "./ReactNative/1.png",
+            "./ReactNative/2.png"
         ],
         "description":"Final Project from Mobile Application Course (Collage) developed with Figma, ReactNative and Firebase"
     }
