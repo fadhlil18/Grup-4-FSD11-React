@@ -2,7 +2,7 @@ import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import Me from "../assets/image/me.png";
 import CV from "../assets/CV.pdf";
-import "../assets/main.css";
+import "../assets/styles/main.css";
 
 const Main = () => {
     return (
