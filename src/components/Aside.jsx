@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/aside.css';
+import '../assets/styles/aside.css';
 
 const FloatingIcons = () => {
   return (
