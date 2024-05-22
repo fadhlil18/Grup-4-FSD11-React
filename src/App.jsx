@@ -16,8 +16,8 @@ function App() {
       <Aside/>
       <Header/>
       <Main/>
-      <Fade><About/></Fade>
-      <Fade><Project/></Fade>
+      <Fade duration={4000}><About/></Fade>
+      <Fade duration={4000}><Project/></Fade>
       <Footer className='particlesheader'/>
     </div>
   );
