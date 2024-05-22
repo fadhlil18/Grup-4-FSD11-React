@@ -3,7 +3,7 @@ import '../assets/aside.css';
 
 const FloatingIcons = () => {
   return (
-    <nav className="navt">
+    <nav className="navt relative">
       <ul>
         <li><a href="https://www.facebook.com/fadhlilazhimfirmansyah"><i className="fab fa-facebook-f"></i><span>Facebook</span></a></li>
         <li><a href="https://www.instagram.com/azhim18/"><i className="fab fa-instagram"></i><span>Instagram</span></a></li>
@@ -16,3 +16,4 @@ const FloatingIcons = () => {
 };
 
 export default FloatingIcons;
+

@@ -8,7 +8,7 @@
             "src/assets/image/React/3.png",
             "src/assets/image/React/4.png"
         ],
-        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fuga vel, consequuntur inventore sapiente assumenda veritatis eius quia tenetur quas vitae voluptatibus placeat quasi impedit eligendi a sequi atque sit."
+        "description":"Final Project from Harisenin Bootcamp develped with Git,Figma, HTML, CSS, JavaScript, ReactJS"
     },
     {
         "id":2,
@@ -17,6 +17,6 @@
             "src/assets/image/ReactNative/1.png",
             "src/assets/image/ReactNative/2.png"
         ],
-        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fuga vel, consequuntur inventore sapiente assumenda veritatis eius quia tenetur quas vitae voluptatibus placeat quasi impedit eligendi a sequi atque sit."
+        "description":"Final Project from Mobile Application Course (Collage) developed with Figma, ReactNative and Firebase"
     }
 ]

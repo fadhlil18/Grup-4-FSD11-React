@@ -18,7 +18,6 @@ function App() {
       <Fade duration={4000}><Main/></Fade>
       <Fade duration={4000}><About/></Fade>
       <Fade duration={4000}><Project/></Fade>
-      <Footer className='particlesheader'/>
     </div>
   );
 }
