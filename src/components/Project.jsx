@@ -12,9 +12,9 @@ const Project = () => {
             <div key={item.id} className="m-4">
               <div className="flex flex-col items-center lg:flex-col lg:items-start">
                 <Slideshow data={item.picture} className="mb-2"/>
-                <div className="text-center mt-2 lg:text-left lg:ml-4">
-                  <div className="font-bold">{item.name}</div>
-                  <div>{item.description}</div>
+                <div className="text-center mt-4 lg:text-left lg:ml-4">
+                  <div className="text-center font-bold text-xl">{item.name}</div>
+                  <div className="text-center">{item.description}</div>
                 </div>
               </div>
             </div>
