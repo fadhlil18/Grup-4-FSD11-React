@@ -21,6 +21,7 @@
     "react-awesome-reveal": "^4.2.10",
     "react-dom": "^18.2.0",
     "react-slideshow-image": "^4.3.1",
+    "react-swift-reveal": "^1.0.4",
     "react-type-animation": "^3.2.0",
     "sass": "^1.77.1",
     "swiper": "^11.1.3",

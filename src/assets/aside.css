@@ -68,3 +68,9 @@ body {
   padding-left: 30%;
   display: block;
 }
+
+@media (max-width: 1024px) {
+  .navt {
+    display: none; /* Hide the aside on screens smaller than 1024px */
+  }
+}

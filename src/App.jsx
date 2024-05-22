@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Fade } from "react-swift-reveal";
 import './App.css'
 import './App.scss'
 import Aside from './components/Aside'
@@ -14,9 +15,9 @@ function App() {
       <ParticlesComponent id="particles"/>
       <Header/>
       <Aside/>
-      <Main/>
-      <About/>
-      <Project/>
+      <Fade duration={4000}><Main/></Fade>
+      <Fade duration={4000}><About/></Fade>
+      <Fade duration={4000}><Project/></Fade>
       <Footer className='particlesheader'/>
     </div>
   );

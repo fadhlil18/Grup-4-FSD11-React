@@ -10,10 +10,12 @@ const Project = () => {
         {data.map(item => {
           return (
             <div key={item.id} className="m-4">
-              <div>
-                <Slideshow data={item.picture} className="flex-col lg:flex-row items-center justify-center mb-12 max-w-7xl mx-auto"/>
-                <div className="text-center mt-2 font-bold">{item.name}</div>
-                <div className="text-center">{item.description}</div>
+              <div className="flex flex-col items-center lg:flex-col lg:items-start">
+                <Slideshow data={item.picture} className="mb-2"/>
+                <div className="text-center mt-2 lg:text-left lg:ml-4">
+                  <div className="font-bold">{item.name}</div>
+                  <div>{item.description}</div>
+                </div>
               </div>
             </div>
           );
