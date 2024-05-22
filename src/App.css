@@ -15,7 +15,7 @@ html {
     visibility: hidden;
 }
 
-.tester {
+.box {
     height: 100vh;
     width: 100%;
     align-items: center;

@@ -11,7 +11,7 @@ const Project = () => {
           return (
             <div key={item.id} className="m-4">
               <div className="flex flex-col items-center  lg:flex-col lg:items-center">
-                <Slideshow data={item.picture} className="mb-2"/>
+                <Slideshow data={item.picture} className="mb-2" />
                 <div className="text-center mt-4 lg:text-left lg:ml-4">
                   <div className="text-center font-bold text-xl">{item.name}</div>
                   <div className="text-center">{item.description}</div>
