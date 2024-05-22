@@ -12,22 +12,14 @@ import Project from './components/Project'
 function App() {
   return (
     <div className="App">
-      <ParticlesComponent id="particles"/>
-      <Header/>
-      
-      <Fade>
-      <Main/>
-      </Fade>
-      <Fade>
-      <Aside/>
-      </Fade>
-      <Fade>
-      <About/>
-      </Fade>
-      <Fade>
-      <Project/>
-      </Fade>
-      <Footer className='particlesheader'/>
+      <ParticlesComponent id="particles" />
+      <Header />
+
+      <Fade><Main /></Fade>
+      <Fade><Aside /></Fade>
+      <Fade><About /></Fade>
+      <Fade><Project /></Fade>
+      <Footer className='particlesheader' />
     </div>
   );
 }

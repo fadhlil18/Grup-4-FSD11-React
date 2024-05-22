@@ -1,5 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap'); */
-* {
+/* * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -11,7 +11,7 @@ body {
   background-position: center;
   background-size: cover;
   height: 100vh;
-}
+} */
 .navt {
   position: fixed;
   width: 60px;
