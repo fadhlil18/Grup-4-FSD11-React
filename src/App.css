@@ -1,6 +1,22 @@
-*{
+* {
     color: white;
 }
+
 html {
     scroll-behavior: smooth;
-  }
+}
+
+.anchor {
+    display: block;
+    height: 115px;
+    /*same height as header*/
+    margin-top: -115px;
+    /*same height as header*/
+    visibility: hidden;
+}
+
+.tester {
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
