@@ -1,6 +1,6 @@
 import React from 'react';
 import Slideshow from '../components/Atoms/ImageSlider';
-import data from '../assets/image/Projects.json';
+import data from './Projects.json';
 
 const Project = () => {
   return (

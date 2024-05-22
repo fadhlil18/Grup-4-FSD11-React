@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Icon from './image/Telkom.png';
-import html from './image/html.png';
-import css from './image/css.png';
-import js from './image/javascript.png';
-import nodejs from './image/nodejs.png';
-import react from './image/react.png';
-import git from './image/git.png';
+import Icon from '../../assets/image/Telkom.png';
+import html from '../../assets/image/html.png';
+import css from '../../assets/image/css.png';
+import js from '../../assets/image/javascript.png';
+import nodejs from '../../assets/image/nodejs.png';
+import react from '../../assets/image/react.png';
+import git from '../../assets/image/git.png';
 
 const Tab = ({ label, isActive, onClick }) => {
   return (
