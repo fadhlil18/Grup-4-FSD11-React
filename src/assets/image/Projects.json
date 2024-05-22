@@ -1,22 +1,22 @@
 [
     {
-        "id":1,
-        "name":"React",
+        "id": 1,
+        "name": "React",
         "picture": [
-            "src/assets/image/React/1.png",
-            "src/assets/image/React/2.png",
-            "src/assets/image/React/3.png",
-            "src/assets/image/React/4.png"
+            "./src/assets/image/React/1.png",
+            "./src/assets/image/React/2.png",
+            "./src/assets/image/React/3.png",
+            "./src/assets/image/React/4.png"
         ],
-        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fuga vel, consequuntur inventore sapiente assumenda veritatis eius quia tenetur quas vitae voluptatibus placeat quasi impedit eligendi a sequi atque sit."
+        "description": "Final Project from Harisenin Bootcamp developed with Git, Figma, HTML, CSS, JavaScript, ReactJS"
     },
     {
-        "id":2,
-        "name":"ReactNative",
+        "id": 2,
+        "name": "ReactNative",
         "picture": [
-            "src/assets/image/ReactNative/1.png",
-            "src/assets/image/ReactNative/2.png"
+            "./src/assets/image/ReactNative/1.png",
+            "./src/assets/image/ReactNative/2.png"
         ],
-        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fuga vel, consequuntur inventore sapiente assumenda veritatis eius quia tenetur quas vitae voluptatibus placeat quasi impedit eligendi a sequi atque sit."
+        "description": "Final Project from Mobile Application Course (College) developed with Figma, ReactNative, and Firebase"
     }
 ]
