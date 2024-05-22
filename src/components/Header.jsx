@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import ReactLogo from "../assets/image/react.png"
 const Navbar = () => {
     const [isExpanded, setIsExpanded] = useState(false);
     const [activeLink, setActiveLink] = useState('Home');
@@ -12,7 +12,7 @@ const Navbar = () => {
         <nav className="bg-white bg-opacity-50 fixed border-gray-200 dark:bg-gray-900 dark:bg-opacity-50 top-0 w-full z-50">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-                    <img src="src/assets/image/react.png" className="h-8" alt="React Logo" />
+                    <img src={ReactLogo} className="h-8" alt="React Logo" />
                     <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">AZH Project</span>
                 </a>
                 <button
