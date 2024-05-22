@@ -5,7 +5,7 @@ import Skills from './Atoms/Skills';
 const AboutMe = () => {
     return (
         
-        <div id='About' className='relative tester flex flex-col lg:flex-row justify-center items-center mx-auto my-16 max-w-6xl'>
+        <div id='About' className='relative box flex flex-col lg:flex-row justify-center items-center mx-auto my-16 max-w-6xl'>
             <img src={Programmer} alt="Programmer" className='w-[250px] sm:w-[350px] md:w-[420px] mb-8 md:mb-2 md:mr-8' />
             <div>
                 <div className='mx-6'>
