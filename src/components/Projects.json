@@ -3,10 +3,10 @@
         "id": 1,
         "name": "React",
         "picture": [
-            "./src/assets/image/React/1.png",
-            "./src/assets/image/React/2.png",
-            "./src/assets/image/React/3.png",
-            "./src/assets/image/React/4.png"
+            "/1.png",
+            "/2.png",
+            "/3.png",
+            "/4.png"
         ],
         "description": "Final Project from Harisenin Bootcamp developed with Git, Figma, HTML, CSS, JavaScript, ReactJS"
     },
