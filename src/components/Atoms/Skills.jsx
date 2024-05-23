@@ -6,7 +6,7 @@ import js from '../../assets/image/javascript.png';
 import nodejs from '../../assets/image/nodejs.png';
 import react from '../../assets/image/react.png';
 import git from '../../assets/image/git.png';
-
+import { Fade } from "react-swift-reveal";
 const Tab = ({ label, isActive, onClick }) => {
   return (
     <button
@@ -35,7 +35,7 @@ const App = () => {
       </div>
       <div id="Skills" className="bg-gray-800 bg-opacity-50 p-4 mt-2 rounded-b-lg">
         {activeTab === 1 && (
-          <div className="flex flex-wrap md:justify-between items-center">
+          <Fade><div className="flex flex-wrap md:justify-between items-center">
             <div className="flex items-center flex-wrap">
               <ul>
                 <li>● HTML CSS</li>
@@ -54,10 +54,10 @@ const App = () => {
               <img src={git} alt="git" className="h-16 ml-4" />
               <img src={nodejs} alt="nodejs" className="h-16 ml-4" />
             </div>
-          </div>
+          </div></Fade>
         )}
         {activeTab === 2 && (
-          <div className="education-content flex items-center">
+          <Fade><div className="education-content flex items-center">
             <div>
               <div>
                 <span className="font-bold">Telkom University</span> (2018 - 2022)
@@ -66,10 +66,10 @@ const App = () => {
               <div>My Thesis is Infected Person Behavior Design in Doctor Vs Virus Game Using Intelligent Agent</div>
             </div>
             <img src={Icon} alt="Telkom" className="w-16 h-16 ml-4" />
-          </div>
+          </div></Fade>
         )}
         {activeTab === 3 &&
-          <div>
+          <Fade><div>
             <div >
               <h2 className='font-bold text-lg'>React Web Application – Bootcamp Group Project</h2>
               <h3 className='text-sm'>Full Stack Developer</h3>
@@ -93,8 +93,7 @@ const App = () => {
               <h3 className='text-sm'>Front-End Mobile Developer</h3>
               <p className='text-sm'>- Developed Mobile App using React Native and integrated to Firebase</p>
             </div>
-
-          </div>
+          </div></Fade>
         }
       </div>
     </div>
