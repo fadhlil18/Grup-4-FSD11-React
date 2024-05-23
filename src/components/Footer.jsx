@@ -17,7 +17,7 @@ const Footer = () => {
             <li>Address : Banten, Indonesia</li>
           </ul>
         </div>
-        <div className="md:w-1/3 md:pl-8">
+        <div className="md:w-1/3 md:px-8 mt-4 md:mt-0">
           <h5 className="text-lg font-semibold mb-4">Social Media</h5>
           <ul className="flex flex-wrap">
             <li className="mr-4 mb-2"><a href="https://www.linkedin.com/in/fadhlilazfi/" target="_blank" className="hover:font-semibold"><i className="fab fa-linkedin-in"></i><span  className='ml-1'>Linkedin</span></a></li>
